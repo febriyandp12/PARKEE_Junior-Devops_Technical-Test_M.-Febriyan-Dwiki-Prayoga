@@ -1,0 +1,5 @@
+command :
+bash backup_kompres.sh /home/febri/PARKEE/ssh-keys /home/febri/PARKEE/Backup
+
+result:
+direktori ssh-keys akan disimpan pada direktori Backup dengan format .tar.gz

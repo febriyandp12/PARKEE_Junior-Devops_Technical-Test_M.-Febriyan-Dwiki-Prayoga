@@ -1,0 +1,36 @@
+command :
+command :
+pip install pandas
+pip install pandas requests
+D:
+cd D:\Architect\Scripting-Python\API
+python.exe fetch_kampus.py
+
+result :
+PS D:\Architect\Scripting-Python\API> python.exe .\fetch_kampus.py
+📂 Membaca data dari file: universities_raw.json
+✅ Jumlah universitas ditemukan: 473
+
+Kolom tersedia: ['state-province', 'country', 'web_pages', 'name', 'alpha_two_code', 'domains']
+Jumlah baris: 473
+
+📊 Data contoh:
+                    Name                     Web pages        Country           Domains State Province
+0    Marywood University     [http://www.marywood.edu]  United States    [marywood.edu]           None
+1  Lindenwood University  [http://www.lindenwood.edu/]  United States  [lindenwood.edu]           None
+2    Sullivan University       [https://sullivan.edu/]  United States    [sullivan.edu]           None
+
+🧹 Filter State Province:
+Sebelum: 473 → Sesudah: 14
+                                            Name                 Web pages        Country               Domains State Province
+14       University of Pittsburgh Medical Center   [https://www.upmc.com/]  United States  [upmc.edu, upmc.com]   Pennsylvania
+16  The University of Texas at Rio Grande Valley  [https://www.utrgv.edu/]  United States           [utrgv.edu]          Texas
+39                        Utah Valley University        [https://uvu.edu/]  United States             [uvu.edu]           Utah
+
+✅ Selesai! File 'universities_filtered.csv' berhasil dibuat.
+
+NOTES :
+dari saya ada kegagalan untuk mengambil data ketika menggunakan request, entah dari data url atau apinya yang bermasalah
+jadi tidak semua bisa di get ketika menggunakan windows dan linux dari CURL URL
+
+makanya saya download raw.json dulu lalu dijalankan dari sana

@@ -1,0 +1,5 @@
+command : 
+bash monitor_disk.sh
+
+result :
+jika disk usage diatas 80% maka akan ada informasi dan mencatat pada log disk_usage_log

@@ -1,0 +1,6 @@
+command :
+bash cari_ekstensi_file.sh /home/febri/PARKEE/documents txt --> cari file.txt pada direktori dokumen
+bash cari_ekstensi_file.sh /home/febri/PARKEE/documents html --> cari file.txt pada direktori dokumen
+
+result :
+jika ada akan menampilkan file apa saja dengan ekstensi yang dicari seperti txt dan html

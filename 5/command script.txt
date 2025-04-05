@@ -1,0 +1,5 @@
+command :
+sudo bash update_sys_auto.sh
+
+result :
+akan menjalankan update system dan setiap ada update akan disimpan ke dalam var/log/system_update.log

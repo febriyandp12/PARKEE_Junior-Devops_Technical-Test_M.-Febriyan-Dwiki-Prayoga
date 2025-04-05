@@ -1,0 +1,9 @@
+command :
+bash statistik_text_file.sh /home/febri/PARKEE/documents
+
+result :
+jika dalam suatu direktori terdapat teks maka akan dihitung jumlahnya
+
+Filename                            Lines      Words      Chars
+--------------------------------------------------------------------------
+test_febri01.txt                        1          3         13

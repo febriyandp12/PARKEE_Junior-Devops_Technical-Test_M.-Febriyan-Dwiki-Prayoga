@@ -1,0 +1,11 @@
+command : 
+bash sys_info.sh
+
+result :
+Hostname      : febri
+Current Time  : Sat Apr  5 10:14:03 AM WIB 2025
+Users Logged In:
+febri    tty1         2025-04-05 09:09
+febri    pts/0        2025-04-05 09:10 (192.168.23.1)
+febri    pts/1        2025-04-05 09:48 (192.168.23.137)
+febri    pts/2        2025-04-05 09:50 (192.168.23.137)

@@ -1,0 +1,5 @@
+command : 
+bash remove_key_auth.sh febri@ubuntu febri
+
+result :
+key yang mempunyai nilai unik akan langsung di remove

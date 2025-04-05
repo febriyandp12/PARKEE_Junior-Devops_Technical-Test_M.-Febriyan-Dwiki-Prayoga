@@ -1,0 +1,5 @@
+command : 
+bash add_auth_keys.sh /home/febri/PARKEE/ssh-keys/id_rsa.pub febri
+
+result :
+jika tidak ada masalah, maka resultnya akan sukses dan ada di authorized keys

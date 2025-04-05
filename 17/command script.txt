@@ -1,0 +1,6 @@
+command : 
+bash iptables_fw.sh
+
+result :
+firewall berjalan dengan ip tables untuk allow koneksi masuk port 22,80,443
+tapi drop koneksi masuk lainnya namun terima koneksi keluar

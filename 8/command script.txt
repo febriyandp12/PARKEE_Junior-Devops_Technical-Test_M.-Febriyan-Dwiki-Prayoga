@@ -1,0 +1,6 @@
+command : 
+bash /home/febri/PARKEE/cek_ssh_toremote.sh febri 192.168.23.137
+
+result :
+umumnya failed, karena ada yang perlu di setting lagi pada ssh config, ssh, dan sebagainya
+jika sudah maka login ssh akan sukses

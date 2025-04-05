@@ -1,0 +1,6 @@
+command : 
+bash scp_transfer.sh /home/febri/PARKEE/ssh-keys febri 192.168.23.137
+bash rsync_transfer.sh /home/febri/PARKEE/ssh-keys febri 192.168.23.137
+
+result :
+file akan di transfer emnggunakan scp dan rsync

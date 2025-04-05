@@ -1,0 +1,6 @@
+command : 
+bash monitor_cpu.sh
+
+result :
+jika dibawah 75, maka tidak ada info atau hanya lewat saja
+namun jika ada, akan ada notifikasi jika cpu sedang high dan mencatat pada log cpu_monitor_log

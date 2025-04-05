@@ -1,0 +1,11 @@
+command : 
+chmod+x /home/febri/PARKEE/config_netplan.sh
+sudo ./config_netplan.sh or bash config_netplan.sh
+
+result :
+config netplan berhasil dengan menambahkan / replace ip dhcp ke static
+untuk makesure ping ke dhcp dengan 192.168.23.137 dan ping ke static 192.168.1.100
+
+jika keduanya sukses, maka berhasil
+namun masalah muncul karena 2 gateway berjalan, yang berjalan di saya adalah dhcp
+saya tidak dapat ping ke gateway static yaitu 192.168.1.1 namun ke 192.168.23.2 (gateway dhcp) berhasil

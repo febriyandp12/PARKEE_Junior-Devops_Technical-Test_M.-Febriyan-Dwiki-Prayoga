@@ -1,0 +1,9 @@
+command : 
+bash create_systemd_python.sh
+sudo systemctl start my_python_service
+sudo systemctl status my_python_service
+sudo systemctl enable my_python_service
+
+result :
+akan membuat sebuah servis dimana kita dapat mengecek status start dan enable jika setelah restart
+servis ingin tetap berjalan

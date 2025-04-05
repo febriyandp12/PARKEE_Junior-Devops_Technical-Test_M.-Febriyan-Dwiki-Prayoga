@@ -1,0 +1,5 @@
+command : 
+bash /home/febri/PARKEE/generate_key_ssh.sh /home/febri/PARKEE/ssh-keys
+
+result :
+keys ssh akan dibuat dengan id_rsa.pub dan id_rsa serta disimpan pada direktori ssh-keys

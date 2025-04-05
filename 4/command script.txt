@@ -1,0 +1,6 @@
+command :
+bash backup_dir_rotation.sh /home/febri/PARKEE/ssh-keys /home/febri/PARKEE/Backup
+
+Result :
+backup direktori ssh-keys telah dibuat dan disimpan pada Backup
+file akan di logrotate setelah 7 hari

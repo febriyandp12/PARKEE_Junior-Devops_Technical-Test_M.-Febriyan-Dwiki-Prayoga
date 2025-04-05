@@ -1,0 +1,7 @@
+command : 
+bash /home/febri/PARKEE/copy_pubkey_toremote.sh /home/febri/PARKEE/ssh-keys/id_rsa.pub febri 192.168.23.137
+
+result :
+jika di run, maka akan ada konfirmasi untuk masuk ke server remote
+jika ada input password, kita input
+finalnya kita bisa masuk

@@ -1,0 +1,7 @@
+command : 
+bash service_control.sh status ssh/cron
+bash service_control.sh stop ssh/cron
+bash service_control.sh start ssh/cron
+
+result :
+servis ssh/cron berjalan, stop, dan start
